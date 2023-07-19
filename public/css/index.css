@@ -1,0 +1,69 @@
+body {
+    background-color: #609966;
+
+
+}
+
+.hello {
+    height: 800px;
+    width: 800px;
+    margin-left: 10px;
+}
+
+.navbar-custom {
+    color: #609966
+}
+
+nav {
+    margin-left: 30px;
+    padding: 15px;
+}
+
+.smIntro {
+    position: relative;
+    text-align: center;
+}
+
+.Intro {
+    position: absolute;
+    bottom: 20rem;
+    right: 30rem;
+    font-style: italic;
+    font-weight: bold;
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 80px;
+}
+
+.aboutMe {
+    margin-top: 300px;
+    padding: 100px;
+}
+
+.skills>span {
+    font-weight: bold;
+    font-size: 30px;
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+table {
+
+    border-spacing: 100px;
+    padding: 30px;
+    border-collapse: separate;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+footer {
+    background-color: aliceblue;
+    height: 100px;
+    padding: 10px;
+}
+
+footer>a {
+    margin-right: 10px;
+}
