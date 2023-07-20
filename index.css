@@ -16,7 +16,7 @@ body {
 
 nav {
     margin-left: 30px;
-    padding: 15px;
+    margin-right: 0% ;
 }
 
 .hello>h1 {
@@ -62,11 +62,13 @@ nav {
     margin-left: 5px;
     display: flex;
     justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    flex-basis: 200px;
     border-collapse: separate;
     border-spacing: 50px;
+}
+
+.aboutMe > h3{
+    display: flex;
+    flex: 1;
 }
 
 
@@ -80,7 +82,7 @@ footer>a {
     margin-right: 10px;
 }
 
-@media screen and (max-device-width: 764px) {
+@media screen and (max-device-width: 900px) {
 
     body{
         width: 700px;
@@ -93,7 +95,7 @@ footer>a {
         font-size: 40px;
         margin-top: 300px;
         left: 200px;
-        top: 240px;
+        top: 170px;
     }
 
     .Intro {
@@ -101,6 +103,13 @@ footer>a {
         bottom: 310px;
         left: 180px;
         font-size: medium;
+    }
+
+
+
+    .aboutMe>h3{
+        display: flex;
+        flex-shrink: 3;
     }
 
 }
